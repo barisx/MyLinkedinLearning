@@ -34,11 +34,11 @@ class Core(Subject): # Inherits from te Subject class
 	def temp(self, temp):
 		self._temp = temp
 		# Notify the observers whenever somebody changes the core temperature
-
+		self.notify()
 class TempViewer:
 
 	def update(self, subject): # Alert method that is invoked when the notify() method in a concrete subject is invoked
-		print "Temperature Viewer: {} has Temperature {}".format(subject._name, subject._temp)
+		print("Temperature Viewer: {} has Temperature {}".format(subject._name, subject._temp))
 
 #Let's create our subjects
 c1 = Core("Core 1")
