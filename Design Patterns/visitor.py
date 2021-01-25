@@ -45,3 +45,4 @@ home = House()
 home.accept(hv)
 
 #Let the house accept the electirician and work on the house byt invoking the visit() method
+home.accept(e)
