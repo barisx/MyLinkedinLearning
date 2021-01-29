@@ -1,0 +1,14 @@
+1611899318373	geckodriver	INFO	Listening on 127.0.0.1:59719
+1611899318378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8qcGiV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611899320098	Marionette	INFO	Listening on port 37753
+1611899320232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611899350567	geckodriver	INFO	Listening on 127.0.0.1:50907
+1611899350571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJ9RzR5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611899352316	Marionette	INFO	Listening on port 39103
+1611899352416	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611899352613	Marionette	INFO	Stopped listening on port 39103
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
