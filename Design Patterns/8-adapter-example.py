@@ -31,4 +31,9 @@ objects.append(Adapter(korean, speak=korean.speak_korean))
 objects.append(Adapter(british, speak=british.speak_english))
 
 for obj in objects:
-	print "'{}' says '{}'".format(obj.name, obj.speak())
+	print("'{}' says '{}'".format(obj.name, obj.speak()))
+
+"""Output
+'Korean' says 'An-neyong?'
+'British' says 'Hello!'
+"""
