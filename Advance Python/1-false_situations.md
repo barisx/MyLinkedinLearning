@@ -4,7 +4,7 @@
 - Numeric zeo values: 0, 0.0, 0j
 - Decimal(0), Fraction(0, x)
 - Empty sequences/collections: '', (), [], {}
-- Empyty sets and ranges: set(), range(0)
+- Empty sets and ranges: set(), range(0)
 
 ```py
 class myClass:
