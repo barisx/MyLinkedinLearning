@@ -32,11 +32,13 @@ def main():
     +-----------------------------------------+---------+---------+
     | All Falsy values                        |  False  |  False  |
     +-----------------------------------------+---------+---------+
-    | One Truthy value (all others are Falsy) |  True   |  False  |
+    | One Truthy value (all others are Falsy) |  True   |  False  |  # [1, 0, 0, 0, 0, 0, False]
     +-----------------------------------------+---------+---------+
-    | One Falsy value (all others are Truthy) |  True   |  False  |
+    | One Falsy value (all others are Truthy) |  True   |  False  |  # [1, 2, 3, "", 5, 6, True]
     +-----------------------------------------+---------+---------+
     | Empty Iterable                          |  False  |  True   |
+    +-----------------------------------------+---------+---------+
+    | Work Style                              |     or  |  and    |
     +-----------------------------------------+---------+---------+
     """
     # TODO: min and max vwill return minimum and maximum values in a sequence
