@@ -1,8 +1,9 @@
-| Message Level | Logging API | Description |
+| Messsage Level API | Logging API | Description |
 | ------------- |:-------------:| ------------- |
-| ```object.__gt__(self, other)```  | ```self > other``` |
-| ```object.__ge__(self, other)```  | ```self >= other``` |
-| ```object.__lt__(self, other)```  | ```self < other``` |
-| ```object.__le__(self, other)```  | ```self <= other``` |
-| ```object.__eq__(self, other)```  | ```self == other``` |
-| ```object.__ne__(self, other)```  | ```self != other``` |
+| DEBUG  | ```logging.debug()``` | Diagnostic information useful for debugging |
+| INFO  | ```logging.info()``` | General information about program execution results |
+| WARNING  | ```logging.warning()``` | Something unexpected or an approaching problem |
+| ERROR  | ```logging.error()``` | Unable to perform a specific operation due to problem |
+| CRITICAL  | ```logging.critical()``` | Program may not to able to continue, serious error |
+
+```logging.basicConfig(level=logging.DEBUG)```  
