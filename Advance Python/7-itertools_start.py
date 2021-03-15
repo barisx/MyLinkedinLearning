@@ -1,7 +1,7 @@
 # advanced iteration functions in the itertools package
 
 import itertools
-
+from functools import Counter
 def testFunction(x):
     return x < 40
 

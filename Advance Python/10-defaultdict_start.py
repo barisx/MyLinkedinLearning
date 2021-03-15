@@ -9,9 +9,10 @@ def main():
     
     # use a dictionary to count each element
     # after adding default dict we commented below line
-    #fruitCounter = {}
+    fruitCounter = {}
     
-    # fruitCounter = defaultdict(int)
+    fruitCounter = defaultdict(int)
+
     """Out
     orange: 1
     grape: 1
@@ -20,7 +21,7 @@ def main():
     banana: 3
     """
     
-    fruitCounter = defaultdict(lambda: 100)
+    # fruitCounter = defaultdict(lambda: 100)
     """Out
     orange: 101
     grape: 101
@@ -35,13 +36,13 @@ def main():
         
     # print the result
     # after adding default dict we commented below lines
-    # for (k, v) in fruitCounter.items():
-    #     if fruit in fruitCounter.keys()
-    #         print(k + ": " + str(v))
-    # else:
-    #     fruitCounter[fruit] = 1
     for (k, v) in fruitCounter.items():
-        print(k + ": " + str(v))
+        if fruit in fruitCounter.keys():
+            print(k + ": " + str(v))
+    else:
+        fruitCounter[fruit] = 1
+    # for (k, v) in fruitCounter.items():
+    #     print(k + ": " + str(v))
     
 if __name__ == "__main__":
     main()
