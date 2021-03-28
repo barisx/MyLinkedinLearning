@@ -59,4 +59,11 @@ top.append_child(sub2)
 
 top.component_function()
 
+"""
+top_menu
+	submenu1
+		sub_submenu 11
+		sub_submenu 12
+	submenu2
+"""
 
