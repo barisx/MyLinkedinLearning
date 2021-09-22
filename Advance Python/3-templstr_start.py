@@ -1,4 +1,4 @@
-# demonstrate template stinrg functions
+# demonstrate template string functions
 
 from string import Template
 
